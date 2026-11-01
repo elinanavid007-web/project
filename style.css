@@ -1,3 +1,109 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8f8f1;
+    direction: rtl;
+}
+header{
+    width: 100%;
+    background-color: #ffffff;
+    padding:  25px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-shadow: 0 3px 12px rgba(0 , 0, 0, 08);
+}
+.logo{
+    font-size: 27px;
+    font-weight: bold;
+    color:#174b3d;
+    letter-spacing: 1px;
+}
+.search-box{
+    display: flex;
+    width: 350px;
+    height: 43px;
+    border: 1px solid #174b3d;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #f8f8f1;
+}
+.search-box input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px 15px;
+    font-family:Tahoma;
+    font-size: 12px;
+    text-align: right;
+}
+.search-box button:hover{
+background-color: #bd984d;    
+}
+.user-actions{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.user-actions a{
+    text-decoration: none;
+    color: #174b3d;
+    font-size: 13px;
+    border: 1px solid #174b3d;
+    padding: 11px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.user-actions a:hover{
+    background-color: #174b3d;
+    color: white;
+}
+nav{
+    width: 190%;
+    background-color: rgb(4, 56, 4);
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding: 20px 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    background-color: rgb(172, 237, 172);
+    color: rgb(196, 231, 160);
+}
+.store-button{
+    display: inline-block;
+    background-color: #b58b50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+    margin-right: auto;
+}
+.store-button:hover{
+    background-color: #8f6938;
+    color: white;
+}
 .cards{
     display: flex;
     justify-content: center;
